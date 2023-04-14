@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+}
+/* .TopHeader{
+    height: 218px;
+    border: 1px solid black;
+} */
+.TopHeader .top_navigation_header_row{
+    height: 52px;
+    background-color: #28406d;
+}
+
+.top_navigation_header_row_colume1{
+    display: flex;
+    width: 33em;
+    height: 49px;
+    /* border: 1px solid white; */
+    margin-left: 100px;
+    margin-right: 3px;
+}
+
+.top_navigation_header_row_colume1 .location_adress,.email_address{
+    /* border: 1px solid white; */
+    width: 221px;
+    height: 31px;
+    margin: 8px;
+    padding: 2px; 
+}
+
+.email_address{
+margin-left: 48px;
+
+}
+.location_adress img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+
+}
+
+.location_adress,.email_address span{
+    color: white;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+ 
+}
+.email_address img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.middle_navigation_header_row{
+    height: 118px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.middle_navigation_header_row #logoimg{
+  
+    position: relative;
+    top: 10px;
+    left: 111px;
+}
+
+.ContactNumbersAndOpenHours{
+    width: 549px;
+    height: 118px;
+    margin-left: 542px;
+    display: flex;
+}
+
+.ContactNumbersAndOpenHours .contactnumber,.openhour{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    padding-left: 33px;
+    padding-top: 25px;
+    font-size: 14px;
+    color: #a8db51
+}
+
+.botton_navigation_header_row .navbar{
+    height: 31px;
+    border: 1px solid lightgray;
+    padding-left: 16px;
+    padding-top: 19px;
+  
+}
+.botton_navigation_header_row .navbar ul{
+    display: flex;
+
+    
+}
+
+.botton_navigation_header_row .navbar ul li{
+    padding-left: 56px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:gray;
+}
+
+.botton_navigation_header_row .navbar ul li::before{
+     content: "| ";
+     color: lightgray;
+     position: relative;
+     left: -15px;
+}
+.botton_navigation_header_row .navbar ul li#searchbar img{
+    vertical-align: top;
+}
+
+/* .backgroundImage{
+    background-repeat: no-repeat; 
+    background: url(SliderImage1.jpg) no-repeat;
+    background-size: cover;
+    background-position: right top;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    visibility: inherit;
+    z-index: 20;
+} */
+
+.slideshowbackgroundImage{
+    width: 1347px;
+    height: 646px;
+    border: 1px solid black;
+    margin-top: 167px;
+}
+.slideshowbackgroundImage img{
+    /* background-image: url(SliderImage1.PNG);
+    background-repeat: no-repeat; */
+    /* height:900px; */
+    width: 84.1em;
+    /* padding-left:100px; */
+    position: relative;
+}
+/* 
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }   */
+
+  .dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdowncontent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    /* z-index: 1; */
+  }
+  #listelement {
+    position: relative;
+    display: inline-block;
+    /* z-index: 1; */
+  }
+  .dropdowncontent a:hover {
+    background-color: blue;
+    color: white;
+    /* z-index: 1; */
+}
+
+#listelement:hover .dropdowncontent {
+    display: block;
+    /* z-index: 1; */
+}
+
+#listelement:hover{
+    text-decoration: underline  solid blue ;
+} 
